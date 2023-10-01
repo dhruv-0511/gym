@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICON ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        
+
+        <title>Responsive gym website - Dhruv</title>
+        
+        <style>
+            .photo-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 10px;
+            }
+    
+            .photo-grid img {
+                width: 100%;
+                height: auto;
+                
+            }
+        </style>
+        
+
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo-nav.png" alt="logo"> Dhruv
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#program" class="nav__link">Program</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#choose" class="nav__link">Choose Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#pricing" class="nav__link">Pictures</a>
+                        </li>
+
+                        <div class="nav__link">
+                            <a href="#footer" class="button nav__button">Register Now</a>
+                        </div>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h2 class="home__subtitle">MAKE YOUR</h2>
+                        <h1 class="home__title">BODY SHAPE</h1>
+                        <p class="home__description">
+                            Fitness is not about being better than someone else.
+                            It's about being better than you used to be!
+                        </p>
+                        <a href="#footer" class="button button__flex">
+                            Get Started <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__images">
+                        <img src="assets/img/home-img.png" alt="home image" class="home__img">
+
+                        <div class="home__triangle home__triangle-3"></div>
+                        <div class="home__triangle home__triangle-2"></div>
+                        <div class="home__triangle home__triangle-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!--==================== PROGRAM ====================-->
+            <section class="program section" id="program">
+                <div class="container">
+                    <div class="section__data">
+                        <h2 class="section__subtitle">Our Program</h2>
+                        <div class="section__titles">
+                            <h1 class="section__title-border">BUILD YOUR</h1>
+                            <h1 class="section__title">BEST BODY</h1>
+                        </div>
+                    </div>
+
+                    <div class="program__container grid">
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="assets/img/program1.png" alt="program image" class="program__img">
+                            </div>
+
+                            <h3 class="program__title">Gym</h3>
+
+                            <p class="program__description">
+                                Creating tension that's temporarily making the muscle 
+                                fibers smaller or contracted.
+                            </p>
+
+                            
+                        </article>
+
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="assets/img/program2.png" alt="program image" class="program__img">
+                            </div>
+
+                            <h3 class="program__title">Cardio Exercise</h3>
+
+                            <p class="program__description">
+                                Exercise your heart rate up and keeps it 
+                                up for a prolonged period of time.
+                            </p>
+
+                            
+                        </article>
+
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="assets/img/program3.png" alt="program image" class="program__img">
+                            </div>
+
+                            <h3 class="program__title">Basic Yoga</h3>
+
+                            <p class="program__description">
+                                Diaphragmatic this is the most common breathing 
+                                technique you'll find in yoga.
+                            </p>
+
+                            
+                        </article>
+
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="assets/img/program4.png" alt="program image" class="program__img">
+                            </div>
+
+                            <h3 class="program__title">Zumba</h3>
+
+                            <p class="program__description">
+                                Zumba is a fitness program that combines dance and 
+                                aerobic movements.
+                            </p>
+
+                            
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CHOOSE US ====================-->
+            <section class="choose section" id="choose">
+                <div class="choose__overflow">
+                    <div class="choose__container container grid">
+                        <div class="choose__content">
+                            <div class="section__data">
+                                <h2 class="section__subtitle">Best Reason</h2>
+                                <div class="section__titles">
+                                    <h1 class="section__title-border">WHY</h1>
+                                    <h1 class="section__title">CHOOSE US ?</h1>
+                                </div>
+                            </div>
+    
+                            <p class="choose__description">
+                                Our gym offers state-of-the-art equipment, knowledgeable trainers, and 
+                                a friendly atmosphere to help you reach your fitness goals.
+                            </p>
+    
+                            <div class="choose__data">
+                                <div class="choose__group">
+                                    <h3 class="choose__number">100+</h3>
+                                    <p class="choose__subtitle">Total Members</p>
+                                </div>
+                                <div class="choose__group">
+                                    <h3 class="choose__number">5+</h3>
+                                    <p class="choose__subtitle">Best trainers</p>
+                                </div>
+                                <div class="choose__group">
+                                    <h3 class="choose__number">15+</h3>
+                                    <p class="choose__subtitle">Programs</p>
+                                </div>
+                                <div class="choose__group">
+                                    <h3 class="choose__number">10+</h3>
+                                    <p class="choose__subtitle">Awards</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="choose__images">
+                            <img src="assets/img/choose-img.png" alt="choose image" class="choose__img">
+    
+                            <div class="choose__triangle choose__triangle-1"></div>
+                            <div class="choose__triangle choose__triangle-2"></div>
+                            <div class="choose__triangle choose__triangle-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== IMAGES ====================-->
+            <section class="pricing section" id="pricing">
+                <div class="container">
+                    <div class="section__data">
+                        <h2 class="section__subtitle">Pictures</h2>
+                        <div class="section__titles">
+                            <h1 class="section__title-border">OUR</h1>
+                            <h1 class="section__title">ART GALLERY</h1>
+                        </div>
+                    </div>
+                    
+                      <div class="img-gallery">
+                        <img data-aos="fade-down-right" src="a.jpg">
+                        <img data-aos="fade-down" src="b.jpg">
+                        <img data-aos="fade-down-left" src="c.jpeg">
+                        <img src="d.jpg" data-aos="fade-down-right">
+                        <img src="e.jpg" data-aos="fade-down">
+                        <img src="f.png" data-aos="fade-down-left">
+                        <img src="g.jpg" data-aos="fade-down-right">
+                        <img src="c.jpeg" data-aos="fade-down">
+                        <img src="a.jpg" data-aos="fade-down-left">
+                      </div>
+
+
+            <!--==================== CALCULATE ====================-->
+            <section class="calculate section">
+                <div class="calculate__container container grid">
+                    <div class="calculate__content">
+                        <div class="section__titles">
+                            <h1 class="section__title-border">CALCULATE</h1>
+                            <h1 class="section__title">YOUR BMI</h1>
+                        </div>
+
+                        <p class="calculate__description">
+                            The body mass index (BMI) calculator calculates 
+                            body mass index from your weight and height.
+                        </p>
+
+                        <form action="" class="calculate__form" id="calculate-form">
+                            <div class="calculate__box">
+                                <input type="number" placeholder="Height" class="calculate__input" id="calculate-cm">
+                                <label for="" class="calculate__label">cm</label>
+                            </div>
+                            <div class="calculate__box">
+                                <input type="number" placeholder="Weight" class="calculate__input" id="calculate-kg">
+                                <label for="" class="calculate__label">kg</label>
+                            </div>
+     
+                            <button type="submit" class="button button__flex">
+                                Calculate Now <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </form>
+
+                        <p class="calculate__message" id="calculate-message"></p>
+                    </div>
+                    <img src="assets/img/calculate-img.png" alt="calculate image" class="calculate__img">
+                </div>
+            </section>
+        </main>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section" id="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/logo-nav.png" alt="logo"> Dhruv
+                    </a>
+                    <p class="footer__description">
+                        Subscribe for all the <br> updates below.
+                    </p>
+
+                    <form action="" class="footer__form" id="contact-form">
+                        <input type="email" name="user_email" placeholder="Your Email" class="footer__input" id="contact-user">
+                        <button type="submit" class="button">
+                            Subscribe
+                        </button>
+                    </form>
+
+                    <p class="footer__message" id="contact-message"></p>
+                </div>
+
+                <div class="footer__content">
+
+                    <div>
+                        <h3 class="footer__title">
+                            CONTACT US
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="tel:9825900160" class="footer__link"> PhoneNo.  9825900160</a>
+
+                            </li>
+                            <li>
+                                <a href="https://goo.gl/maps/N7oJHUddzbHPDqNR8" class="footer__link" target="_blank">Swami TeoonRam Nagar Nana Chiloda Road,<br>Sadguru TeoonRam Marg, Kotarpur, Ahmedabad</a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/919825900160?text=I%20have%20query%20regarding" class="footer__link" target="_blank">Message Us on WhatsApp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="footer__group">
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/Dhruv Golani" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/GolaniDhruv" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/dhruv_golani" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>    
+                    </ul>
+    
+                    <span class="footer__copy">
+                        &#169; Copyright Dhruv. All rights reserved
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset:300,
+            dusration:1500,
+          });
+        </script>
+    </body>
+</html>
